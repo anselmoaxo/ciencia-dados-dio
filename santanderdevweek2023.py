@@ -34,7 +34,7 @@ print(json.dumps(users, indent=2))
 
 Utilizando API do OpenAI , gerando um mesnagem de Marketing
 """
-openai_api_key = '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'
+openai_api_key = 'KEY'
 openai.api_key = openai_api_key
 
 def generate_ai_news(user):
